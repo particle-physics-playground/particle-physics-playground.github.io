@@ -5,3 +5,7 @@
 - title: Exercise 2
   description: How to discover more particles
   link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/discovering_more_particles_1.ipynb
+
+- title: Exercise 3
+  description: Discovering particles
+  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/discovering_particles_1.ipynb
