@@ -1,6 +1,6 @@
 - title: Exercise 0
   description: Hello CMS. An introduction to CMS and accessing the data.
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/hello_cms.ipynb
+  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/hello_CMS.ipynb
 
 - title: Exercise 1
   description: Line Fitting
