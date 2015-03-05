@@ -3,13 +3,13 @@
   link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/hello_CMS.ipynb
 
 - title: Exercise 1
-  description: Line Fitting
+  description: Chi-square line fitting
   link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/chi_square_fitting_1.ipynb
 
 - title: Exercise 2
-  description: How to discover more particles
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/discovering_more_particles_1.ipynb
+  description: Discovering particles (Part 1)
+  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/invariant_mass_0.ipynb
 
 - title: Exercise 3
-  description: Discovering particles
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/discovering_particles_1.ipynb
+  description: How to discover particles (Part 2)
+  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/discovering_more_particles_1.ipynb
