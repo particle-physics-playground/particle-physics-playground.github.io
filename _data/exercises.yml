@@ -1,20 +1,19 @@
-- title: Activity 0
+- title: Hello CMS
   description: Hello CMS. An introduction to CMS and accessing the data.
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/hello_CMS.ipynb
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/hello_CMS.ipynb
 
-- title: Activity 1
+- title: Tutorial
+  description: An explanation of the data model for the CMS data used in these activities.
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/data_model.ipynb
+
+- title: Theory activity 0
   description: The user learns what particles interact directly with a detector, based on their lifetimes.
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/lifetimes.ipynb
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/lifetimes.ipynb
 
-- title: Activity 2
+- title: Experimental activity 0
   description: Discovering particles (Part 1)
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/invariant_mass_0.ipynb
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/invariant_mass_0.ipynb
 
-- title: Activity 3
+- title: Experimental activity 1
   description: How to discover particles (Part 2)
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/discovering_more_particles_1.ipynb
-
-- title: Activity 4
-  description: Chi-square line fitting
-  link: http://nbviewer.ipython.org/github/particle-physics-playground/playground/blob/master/activities/chi_square_fitting_1.ipynb
-
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/discovering_more_particles_1.ipynb
