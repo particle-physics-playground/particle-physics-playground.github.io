@@ -6,6 +6,10 @@
   description: An explanation of the data model for the CMS data used in these activities.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/data_model.ipynb
 
+- title: Hello CLEO
+  description: Hello CLEO. An introduction to CLEO-II and accessing the data.
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/hello_CLEO.ipynb
+
 - title: Theory activity 0
   description: The user learns what particles interact directly with a detector, based on their lifetimes.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/lifetimes.ipynb
