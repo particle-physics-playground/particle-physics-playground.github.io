@@ -10,6 +10,14 @@
   description: Hello CLEO. An introduction to CLEO-II and accessing the data.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/hello_CLEO.ipynb
 
+- title: Tutorial
+  description: An explanation of the data model for the CLEO data used in these activities.
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/data_model_CLEO.ipynb
+
+- title: Download more data
+  description: Shows how to download more data to extend your activities or do real physics research. 
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/hello_CLEO.ipynb
+
 - title: Theory activity 0
   description: The user learns what particles interact directly with a detector, based on their lifetimes.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/lifetimes.ipynb
