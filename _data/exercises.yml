@@ -23,9 +23,9 @@
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/lifetimes.ipynb
 
 - title: Experimental activity 0
-  description: Discovering particles (Part 1)
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/invariant_mass_0.ipynb
+  description: Identifying particles using invariant masses (Part 1)
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_relativistic_kinematics.ipynb
 
 - title: Experimental activity 1
-  description: How to discover particles (Part 2)
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/discovering_more_particles_1.ipynb
+  description: Discovering new particles
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_dimuon_spectrum.ipynb
