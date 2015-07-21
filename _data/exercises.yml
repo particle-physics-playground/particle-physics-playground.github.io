@@ -29,3 +29,7 @@
 - title: Experimental activity 1
   description: Discovering new particles
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_dimuon_spectrum.ipynb
+
+- title: Experimental activity 2
+  description: D mesons in CLEO
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_D_meson_decays_CLEO.ipynb
