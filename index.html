@@ -52,16 +52,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h1>Activities</h1>
-        <h2>Particle Physics</h2>
-				<hr class="space">
+        <h1>Particle Physics Activities</h1>
 				<p><a href="#howto" class="btn btn-warning btn-lg">How To Use This Website</a></p>
 				<p>
 				<a href="#intro" class="btn btn-danger btn-lg">Intro</a>
 				<a href="#tutorial" class="btn btn-danger btn-lg">Tutorials</a>
 				<a href="#activity" class="btn btn-danger btn-lg">Activities</a>
 				</p>
-				<hr class="space">
       </div>  
     </div>
   </div>
@@ -71,11 +68,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h1>Activities</h1>
         <h2>How To Use This Website</h2>
-				<hr class="space">
 				<p>Content here</p>
-				<hr class="space">
       </div>  
     </div>
   </div>
@@ -90,7 +84,7 @@
     </div>
     <div class="row">
 {% for intro in site.data.intro %}
-      <div class="col-md-3 col-sm-6 text-center">
+      <div class="col-sm-6 text-center">
         <div class="featurette-item">
           <a href="{{ intro.link }}"><i class="fa fa-cog"></i></a>
           <h4>{{ intro.title }}</h4>
@@ -111,7 +105,7 @@
     </div>
     <div class="row">
 {% for tutorials in site.data.tutorials %}
-      <div class="col-md-3 col-sm-6 text-center">
+      <div class="col-sm-4 text-center">
         <div class="featurette-item">
           <a href="{{ tutorials.link }}"><i class="fa fa-cog"></i></a>
           <h4>{{ tutorials.title }}</h4>
