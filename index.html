@@ -56,16 +56,31 @@
         <h2>Particle Physics</h2>
 				<hr class="space">
 				<p><a href="#sec3" class="btn btn-danger btn-lg">Philosophy</a></p>
+				<p><a href="#sec1-1" class="btn btn-danger btn-lg">Intro</a></p>
+				<p><a href="#sec1-2" class="btn btn-danger btn-lg">Tutorials</a></p>
+				<p><a href="#sec1-3" class="btn btn-danger btn-lg">Activities</a></p>
 				<hr class="space">
       </div>  
     </div>
+  </div>
+</div>
+<hr>
+
+<!-- Section 1-1  -->
+<div id="sec1-1" class="featurette" >
+  <div class="container">
     <div class="row">
-{% for exercise in site.data.exercises %}
+      <div class="col-md-12 text-center">
+        <h2>Intro</h2>
+      </div>  
+    </div>
+    <div class="row">
+{% for exercise in site.data.intro %}
       <div class="col-md-3 col-sm-6 text-center">
         <div class="featurette-item">
-          <a href="{{ exercise.link }}"><i class="fa fa-cog"></i></a>
-          <h4>{{ exercise.title }}</h4>
-          <p>{{ exercise.description }}</p>
+          <a href="{{ intro.link }}"><i class="fa fa-cog"></i></a>
+          <h4>{{ intro.title }}</h4>
+          <p>{{ intro.description }}</p>
         </div>
       </div>
 {% endfor %}    
@@ -73,6 +88,53 @@
   </div>
 </div>
 <hr>
+
+<!-- Section 1-2  -->
+<div id="sec1-2" class="featurette" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Tutorials</h2>
+      </div>  
+    </div>
+    <div class="row">
+{% for exercise in site.data.tutorials %}
+      <div class="col-md-3 col-sm-6 text-center">
+        <div class="featurette-item">
+          <a href="{{ tutorials.link }}"><i class="fa fa-cog"></i></a>
+          <h4>{{ tutorials.title }}</h4>
+          <p>{{ tutorials.description }}</p>
+        </div>
+      </div>
+{% endfor %}    
+    </div> <!-- End row -->
+  </div>
+</div>
+<hr>
+
+<!-- Section 1-1  -->
+<div id="sec1-3" class="featurette" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Activities</h2>
+      </div>  
+    </div>
+    <div class="row">
+{% for exercise in site.data.activities %}
+      <div class="col-md-3 col-sm-6 text-center">
+        <div class="featurette-item">
+          <a href="{{ activities.link }}"><i class="fa fa-cog"></i></a>
+          <h4>{{ activities.title }}</h4>
+          <p>{{ activities.description }}</p>
+        </div>
+      </div>
+{% endfor %}    
+    </div> <!-- End row -->
+  </div>
+</div>
+<hr>
+
 
 <!-- Section 2  -->
 {% include about.html %}	
