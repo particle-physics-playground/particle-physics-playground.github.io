@@ -75,12 +75,12 @@
       </div>  
     </div>
     <div class="row">
-{% for exercises in site.data.exercises %}
+{% for intro in site.data.intro %}
       <div class="col-md-3 col-sm-6 text-center">
         <div class="featurette-item">
-          <a href="{{ exercises.link }}"><i class="fa fa-cog"></i></a>
-          <h4>{{ exercises.title }}</h4>
-          <p>{{ exercises.description }}</p>
+          <a href="{{ intro.link }}"><i class="fa fa-cog"></i></a>
+          <h4>{{ intro.title }}</h4>
+          <p>{{ intro.description }}</p>
         </div>
       </div>
 {% endfor %}    
@@ -98,7 +98,7 @@
       </div>  
     </div>
     <div class="row">
-{% for exercise in site.data.tutorials %}
+{% for tutorials in site.data.tutorials %}
       <div class="col-md-3 col-sm-6 text-center">
         <div class="featurette-item">
           <a href="{{ tutorials.link }}"><i class="fa fa-cog"></i></a>
@@ -121,7 +121,7 @@
       </div>  
     </div>
     <div class="row">
-{% for exercise in site.data.activities %}
+{% for activities in site.data.activities %}
       <div class="col-md-3 col-sm-6 text-center">
         <div class="featurette-item">
           <a href="{{ activities.link }}"><i class="fa fa-cog"></i></a>
