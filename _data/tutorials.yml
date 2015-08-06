@@ -1,14 +1,6 @@
-- title: Hello CMS
-  description: Hello CMS. An introduction to CMS and accessing the data.
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/hello_CMS.ipynb
-
 - title: Tutorial
   description: An explanation of the data model for the CMS data used in these activities.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/data_model.ipynb
-
-- title: Hello CLEO
-  description: Hello CLEO. An introduction to CLEO-II and accessing the data.
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/hello_CLEO.ipynb
 
 - title: Tutorial
   description: An explanation of the data model for the CLEO data used in these activities.
@@ -17,19 +9,3 @@
 - title: Download more data
   description: Shows how to download more data to extend your activities or do real physics research. 
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/download_more_data.ipynb
-
-- title: Theory activity 0
-  description: The user learns what particles interact directly with a detector, based on their lifetimes.
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/lifetimes.ipynb
-
-- title: Experimental activity 0
-  description: Identifying particles using invariant masses
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_relativistic_kinematics.ipynb
-
-- title: Experimental activity 1
-  description: Discovering new particles in CMS
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_dimuon_spectrum.ipynb
-
-- title: Experimental activity 2
-  description: D mesons in CLEO
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_D_meson_decays_CLEO.ipynb
