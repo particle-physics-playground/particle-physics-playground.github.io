@@ -75,12 +75,12 @@
       </div>  
     </div>
     <div class="row">
-{% for exercise in site.data.intro %}
+{% for exercises in site.data.exercises %}
       <div class="col-md-3 col-sm-6 text-center">
         <div class="featurette-item">
-          <a href="{{ intro.link }}"><i class="fa fa-cog"></i></a>
-          <h4>{{ intro.title }}</h4>
-          <p>{{ intro.description }}</p>
+          <a href="{{ exercises.link }}"><i class="fa fa-cog"></i></a>
+          <h4>{{ exercises.title }}</h4>
+          <p>{{ exercises.description }}</p>
         </div>
       </div>
 {% endfor %}    
