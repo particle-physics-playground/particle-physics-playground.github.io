@@ -1,15 +1,19 @@
 - title: Theory activity 0
+  description: The user learns how special relativity relates to the kinematics of high momentum particles.
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_physicsbkg_000_specialrelativity.ipynb
+
+- title: Theory activity 1
   description: The user learns what particles interact directly with a detector, based on their lifetimes.
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/lifetimes.ipynb
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_physicsbkg_001_lifetimes.ipynb
 
 - title: Experimental activity 0
   description: Identifying particles using invariant masses
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_relativistic_kinematics.ipynb
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_activity_000_cms_muons.ipynb
 
 - title: Experimental activity 1
   description: Discovering new particles in CMS
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_dimuon_spectrum.ipynb
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_activity_001_cms_dimuons.ipynb
 
 - title: Experimental activity 2
   description: D mesons in CLEO
-  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ACTIVITY_D_meson_decays_CLEO.ipynb
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_activity_002_cleo_dmesons.ipynb
