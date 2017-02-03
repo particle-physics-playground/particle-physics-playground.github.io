@@ -124,33 +124,15 @@
 
 <div id="intro" class="featurette" >
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>Intro</h2>
-        <hr class="space">
-      </div>  
-    </div>
-    <!-- <div class="row">
-{% for intro in site.data.intro %}
-      <div class="col-sm-6 text-center">
-        <div class="featurette-item">
-          <a href="{{ intro.link }}"><i class="fa fa-info-circle"></i></a>
-          <h4>{{ intro.title }}</h4>
-          <p>{{ intro.description }}</p>
-        </div>
-      </div>
-{% endfor %}    
-    </div> 
-    --><!-- End row -->
 
     Hyperlinks take you to a static rendering of the Jupyter Notebook on Github and so is
     for just viewing the exercises. <i>You cannot run the code from there!</i>
     To run the code, read the instructions above on how to download/clone this repository.  
-    <h3>Intro</h3> 
+    <h3>Experiments</h3> 
     <dl>
-      {% for intro in site.data.intro %}
-          <dt><a href="{{ intro.link }}">{{ intro.filename }}</a><dt>
-          <dd> <b>{{intro.title}}</b> {{ intro.description }} </dd>
+      {% for experiments in site.data.experiments %}
+          <dt><a href="{{ experiments.link }}">{{ experiments.filename }}</a><dt>
+          <dd> <b>{{experiments.title}}</b> {{ experiments.description }} </dd>
       <br>
       {% endfor %}
     </dl> 
@@ -164,11 +146,11 @@
       {% endfor %}
     </dl> 
 
-    <h3>Tutorials</h3> 
+    <h3>Code background</h3> 
     <dl>
-      {% for tutorials in site.data.tutorials %}
-          <dt><a href="{{ tutorials.link }}">{{ tutorials.title }}</a><dt>
-          <dd> {{ tutorials.description }}</dd>
+      {% for codebkg in site.data.code_background %}
+          <dt><a href="{{ codebkg.link }}">{{ codebkg.title }}</a><dt>
+          <dd> {{ codebkg.description }}</dd>
       <br>
       {% endfor %}
     </dl> 
@@ -181,54 +163,9 @@
       <br>
       {% endfor %}
     </dl> 
-
-
   </div>
 </div>
 
-<div id="tutorial" class="featurette" >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>Tutorials</h2>
-        <hr class="space">
-      </div>  
-    </div>
-    <div class="row">
-{% for tutorials in site.data.tutorials %}
-      <div class="col-sm-4 text-center">
-        <div class="featurette-item">
-          <a href="{{ tutorials.link }}"><i class="fa fa-question-circle"></i></a>
-          <h4>{{ tutorials.title }}</h4>
-          <p>{{ tutorials.description }}</p>
-        </div>
-      </div>
-{% endfor %}    
-    </div> <!-- End row -->
-  </div>
-</div>
-
-<div id="activity" class="featurette" >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>Activities</h2>
-        <hr class="space">
-      </div>  
-    </div>
-    <div class="row">
-{% for activities in site.data.activities %}
-      <div class="col-sm-3 text-center">
-        <div class="featurette-item">
-          <a href="{{ activities.link }}"><i class="fa fa-cog"></i></a>
-          <h4>{{ activities.title }}</h4>
-          <p>{{ activities.description }}</p>
-        </div>
-      </div>
-{% endfor %}    
-    </div> <!-- End row -->
-  </div>
-</div>
 <hr>
 
 <!-- Section 3  -->
