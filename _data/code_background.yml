@@ -1,11 +1,14 @@
 - title: Tutorial
+  filename: ppp_codebkg_000_cms.ipynb
   description: An explanation of the data model for the CMS data used in these activities.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_codebkg_000_cms.ipynb
 
 - title: Tutorial
+  filename: ppp_codebkg_001_cleo.ipynb
   description: An explanation of the data model for the CLEO data used in these activities.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_codebkg_001_cleo.ipynb
 
 - title: Download more data
-  description: Shows how to download more data to extend your activities or do real physics research. 
+  filename: ppp_codebkg_002_downloaddata.ipynb
+  description: How how to download more data to extend your learning activities or do real physics research. 
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_codebkg_002_downloaddata.ipynb

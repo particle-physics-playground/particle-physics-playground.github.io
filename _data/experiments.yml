@@ -1,14 +1,14 @@
 - title: Hello CMS!
-  description: An introduction to CMS and accessing the data.
+  description: An introduction to the CMS experiment and a very quick look at how to access its data.
   filename: ppp_experiment_000_cms.ipynb
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_experiment_000_cms.ipynb
 
 - title: Hello CLEO!
-  description: An introduction to CLEO-II and accessing the data.
+  description: An introduction to the CLEO-II experiment and a very quick look at how to access its data.
   filename: ppp_experiment_001_cleo.ipynb
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_experiment_001_cleo.ipynb
 
 - title: Hello BaBar!
-  description: An introduction to BaBAr and accessing the data.
+  description: An introduction to the BaBar experiment and a very quick look at how to access its data.
   filename: ppp_experiment_002_babar.ipynb
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_experiment_002_babar.ipynb

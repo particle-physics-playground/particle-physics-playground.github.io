@@ -132,7 +132,7 @@
     <dl>
       {% for experiments in site.data.experiments %}
           <dt><a href="{{ experiments.link }}">{{ experiments.filename }}</a><dt>
-          <dd> <b>{{experiments.title}}</b> {{ experiments.description }} </dd>
+          <dd> {{ experiments.description }} </dd>
       <br>
       {% endfor %}
     </dl> 
@@ -141,7 +141,7 @@
     <dl>
       {% for physbkg in site.data.physics_background %}
           <dt><a href="{{ physbkg.link }}">{{ physbkg.filename }}</a><dt>
-          <dd> <b>{{physbkg.title}}</b> {{ physbkg.description }} </dd>
+          <dd> {{ physbkg.description }} </dd>
       <br>
       {% endfor %}
     </dl> 
@@ -149,7 +149,7 @@
     <h3>Code background</h3> 
     <dl>
       {% for codebkg in site.data.code_background %}
-          <dt><a href="{{ codebkg.link }}">{{ codebkg.title }}</a><dt>
+          <dt><a href="{{ codebkg.link }}">{{ codebkg.filename }}</a><dt>
           <dd> {{ codebkg.description }}</dd>
       <br>
       {% endfor %}
@@ -158,7 +158,7 @@
     <h3>Activities</h3> 
     <dl>
       {% for activities in site.data.activities %}
-          <dt><a href="{{ activities.link }}">{{ activities.title }}</a><dt>
+          <dt><a href="{{ activities.link }}">{{ activities.filename }}</a><dt>
           <dd> {{ activities.description }}</dd>
       <br>
       {% endfor %}

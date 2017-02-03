@@ -4,6 +4,6 @@
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_physicsbkg_000_specialrelativity.ipynb
 
 - title: Theory activity 1
-  description: The user learns what particles interact directly with a detector, based on their lifetimes.
+  description: The user learns what particles live long enought to interact directly with a detector and what particles need to be reconstructed from their decay products.
   filename: ppp_physicsbkg_001_lifetimes.ipynb
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_physicsbkg_001_lifetimes.ipynb
