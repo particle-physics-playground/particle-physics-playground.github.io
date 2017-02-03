@@ -130,7 +130,7 @@
         <hr class="space">
       </div>  
     </div>
-    <div class="row">
+    <!-- <div class="row">
 {% for intro in site.data.intro %}
       <div class="col-sm-6 text-center">
         <div class="featurette-item">
@@ -140,7 +140,49 @@
         </div>
       </div>
 {% endfor %}    
-    </div> <!-- End row -->
+    </div> 
+    --><!-- End row -->
+
+    Hyperlinks take you to a static rendering of the Jupyter Notebook on Github and so is
+    for just viewing the exercises. <i>You cannot run the code from there!</i>
+    To run the code, read the instructions above on how to download/clone this repository.  
+    <h3>Intro</h3> 
+    <dl>
+      {% for intro in site.data.intro %}
+          <dt><a href="{{ intro.link }}">{{ intro.filename }}</a><dt>
+          <dd> <b>{{intro.title}}</b> {{ intro.description }} </dd>
+      <br>
+      {% endfor %}
+    </dl> 
+
+    <h3>Physics background</h3> 
+    <dl>
+      {% for physbkg in site.data.physics_background %}
+          <dt><a href="{{ physbkg.link }}">{{ physbkg.filename }}</a><dt>
+          <dd> <b>{{physbkg.title}}</b> {{ physbkg.description }} </dd>
+      <br>
+      {% endfor %}
+    </dl> 
+
+    <h3>Tutorials</h3> 
+    <dl>
+      {% for tutorials in site.data.tutorials %}
+          <dt><a href="{{ tutorials.link }}">{{ tutorials.title }}</a><dt>
+          <dd> {{ tutorials.description }}</dd>
+      <br>
+      {% endfor %}
+    </dl> 
+
+    <h3>Activities</h3> 
+    <dl>
+      {% for activities in site.data.activities %}
+          <dt><a href="{{ activities.link }}">{{ activities.title }}</a><dt>
+          <dd> {{ activities.description }}</dd>
+      <br>
+      {% endfor %}
+    </dl> 
+
+
   </div>
 </div>
 
