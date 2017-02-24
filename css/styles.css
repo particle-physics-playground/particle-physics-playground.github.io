@@ -263,7 +263,7 @@ img.grayscale {
 .header, .header.alt {
 	color: #FFF;
   height: 700px;
-  background: #5E3448 url('../img/bg2.jpg') no-repeat top center fixed;
+  background: #5E3448 url('../img/bg4.png') no-repeat top center fixed;
 }
 
 .header .btn-default.btn-lg:hover {
