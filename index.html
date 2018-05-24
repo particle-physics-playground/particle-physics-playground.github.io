@@ -1,56 +1,37 @@
 ---
 ---
 <!DOCTYPE html>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-85002441-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+<html lang="en">
 
 <!-- Head -->
-<html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>Particle-Physics-Playground by mattbellis</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="keywords" content="Particle Physics, iPython examples">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8">
+	<title>Particle-Physics-Playground by mattbellis</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="keywords" content="Particle Physics, iPython examples">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="ico/favicon.ico">
+</head>
 
-        <link rel="shortcut icon" type="image/x-icon" href="ico/favicon.ico">
+<body data-spy="scroll" data-target="#main-navbar" data-offset="0">
 
-<!-- Navbar -->
-<div class="navbar navbar-fixed-top alt" data-spy="affix" data-offset-top="1000">
-  <div class="container">
-    <div class="navbar-header">
-      <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> P<sup>3</sup></a>
-      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-    </div>
-    <div class="navbar-collapse collapse" id="navbar">
-      <ul class="nav navbar-nav">
-      	{% include menu.html %}	
-      </ul>
-    </div>
-   </div>
-</div>
+<!-- Navbar -->  
+<nav id="main-navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+  <a class="navbar-brand" href="#"><i class="material-icons">home</i> P<sup>3</sup></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      {% include menu.html %}	
+    </ul>
+  </div>
+  </div>
+</nav>
 
 <!-- Title content - transparent header -->
 <div class="header alt vert">
@@ -59,113 +40,125 @@
   </div>
 </div>
 
-<!-- Section 1  -->
-
-<div id="howto" class="featurette" >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h1>How To Use This Website</h1>
-        <div class="col-md-8 col-md-offset-2 text-left">
-				<p>This website is allows you to interact with particle physics data from the LHC and other accelerators/experiments.
-                The data is accessed through zipped text files and Python tools are provided that allow for quick and easy access to those data.
-                We have made available tutorials on how to interact with these data, tutorials on the data structures themselves, and tutorials on the physics needed to understand these data.</p>
-                <p>You can start playing with all of this in two different ways:</p>
-                <ul>
-                    <li> Click on the <a href="http://mybinder.org/repo/particle-physics-playground/playground">Binder link</a> to start running immediately on a <a href="http://mybinder.org/">Binder instance</a>. No muss! No fuss! 
-                        <li> Go to the <a href="https://github.com/particle-physics-playground/playground">Github repo</a> and clone the repository to your laptop/desktop
-                            (or download a .zip or .tar file of the project)
-                            and work locally. This is probably the best bet if you want to save your work and even start to develop some of your own cool projects!
-                            This way will also allow you access more data than you would be able to work with on Binder. 
-                </ul>
-                Have fun!
-      </div>  
-      </div>  
-    </div>
-  </div>
+<!-- How To  -->
+<div class="featurette" id="howto">
+<div class="container">
+<div class="row justify-content-center">
+  <div class="col-md-10">
+		<div class="card bg-dark text-white">
+		  <h2 class="card-header text-center"><i class="material-icons">help_outline</i> How To Use This Website</h2>
+		  <div class="card-body">
+				<p>This website allows you to interact with particle physics data from the LHC and other accelerators/experiments.
+				The data is accessed through zipped text files and Python tools are provided that allow for quick and easy access to those data.
+				We have made available tutorials on how to interact with these data, tutorials on the data structures themselves, and tutorials on the physics needed to understand these data.</p>
+				<p>You can start playing with all of this in two different ways:</p>
+				<ul>
+				<li> Click on the <a href="http://mybinder.org/repo/particle-physics-playground/playground">Binder link</a> to start running immediately on a <a href="http://mybinder.org/">Binder instance</a>. No muss! No fuss! 
+				<li> Go to the <a href="https://github.com/particle-physics-playground/playground">Github repo</a> and clone the repository to your laptop/desktop
+				(or download a .zip or .tar file of the project)
+				and work locally. This is probably the best bet if you want to save your work and even start to develop some of your own cool projects!
+				This way will also allow you access more data than you would be able to work with on Binder. 
+				</ul>
+				<p>Have fun!</p>
+				<p class="text-center"><a href="#activities" class="btn btn-info">Activities</a></p>
+		  </div>
+		</div>	      
+  </div>  
+</div>
+</div>
 </div>
 
-<div id="activities" class="featurette" >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h1>Particle Physics Activities</h1>
-            <div class="col-md-8 col-md-offset-2 text-left">
-                We've provided you with some sample Jupyter Notebook tutorials and activities in the repository, so you can poke around
-                and see what you're getting yourself into. Below, we provide a listing
-                and a link to the Notebook (this link is just a static rendering so while you can look at the code, you won't be able to 
-                actually run it. 
-                <p>
-                We've broken these Notebooks up into 4 categories.
-                <ul>
-                    <li> <b>Physics background</b>. These are brief explanations of some of the physics background you need to understand
-                        the data or the experiments that recorded the data. 
-                    <li> <b>Experiment</b>. An introduction to the experiments that took the data...and donated it to this website!
-                    <li> <b>Code background</b>. These Notebooks walk you through some of the details of the data that is provided.
-                        They also have instructions on how to access these data, though you can also find those instructions in 
-                        some of the other tutorials. 
-                    <li> <b>Activities</b>. These are activities and challenges where you start to pull information out of
-                        the data. Measure parameters of the standard model! Discover new (at least to you) particles! 
-                        And who knows...maybe there is something we missed in the data and only <i>you</i> can figure it out!  :)
-                </ul>
-                <p>
-                </b>
-				<!-- <p><a href="#howto" class="btn btn-danger btn-lg">How To Use This Website</a></p>
-                <p> -->
-      <div class="col-md-12 text-center">
-				<a href="#intro" class="btn btn-warning btn-lg">Intro</a>
-				<a href="#tutorial" class="btn btn-warning btn-lg">Tutorials</a>
-				<a href="#activity" class="btn btn-warning btn-lg">Activities</a>
-				</p>
-            </div>
-            </div>
-      </div>  
-    </div>
-  </div>
+<!-- Activities  -->
+
+<hr>
+
+<div class="blurb" id="activities">
+<div class="container">
+	
+
+
+	<h2><i class="material-icons">star_border</i> Particle Physics Activities</h2>
+	<p>
+		We've provided you with some sample Jupyter Notebook tutorials and activities in the repository, so you can poke around
+	  and see what you're getting yourself into. Below, we provide a listing
+	  and a link to the Notebook (this link is just a static rendering so while you can look at the code, you won't be able to 
+	  actually run it. 
+	</p>
+	<p>
+		Hyperlinks take you to a static rendering of the Jupyter Notebook on Github and so is
+		for just viewing the exercises. <i>You cannot run the code from there!</i>
+		To run the code, read the instructions above on how to download/clone this repository.  			
+	</p>	
+	<p>
+	  We've broken these Notebooks up into 4 categories.
+	</p>
+				
+	<div class="card">
+		<h4 class="card-header">Physics background</h4>
+	  <div class="card-body">
+	    <p class="card-text">These are brief explanations of some of the physics background you need to understand the data or the experiments that recorded the data.</p>
+	  </div>
+	  <ul class="list-group list-group-flush">
+		  
+	      {% for physbkg in site.data.physics_background %}
+	          <li class="list-group-item">
+	          	<h5><a href="{{ physbkg.link }}">{{ physbkg.filename }}</a></h5>
+	          	<p>{{ physbkg.description }}</p>
+	      {% endfor %}	  	  
+	   </ul>
+	</div>
+	
+	<div class="card">
+		<h4 class="card-header">Experiments</h4>
+	  <div class="card-body">
+	    <p class="card-text">An introduction to the experiments that took the data...and donated it to this website!</p>
+	  </div>
+	  <ul class="list-group list-group-flush">
+	      {% for experiments in site.data.experiments %}
+	          <li class="list-group-item">
+	          	<h5><a href="{{ experiments.link }}">{{ experiments.filename }}</a></h5>
+	          	<p>{{ experiments.description }}</p>
+	      {% endfor %}	  	  
+	   </ul>
+	</div>			
+	
+	<div class="card">
+		<h4 class="card-header">Code background</h4>
+	  <div class="card-body">
+	    <p class="card-text">
+				These Notebooks walk you through some of the details of the data that is provided.
+				They also have instructions on how to access these data, though you can also find those instructions in 
+				some of the other tutorials.
+	    </p>
+	  </div>
+	  <ul class="list-group list-group-flush">
+	      {% for codebkg in site.data.code_background %}
+	          <li class="list-group-item">
+	          	<h5><a href="{{ codebkg.link }}">{{ codebkg.filename }}</a></h5>
+	          	<p>{{ codebkg.description }}</p>
+	      {% endfor %}	  	  
+	   </ul>
+	</div>		
+	
+	<div class="card">
+		<h4 class="card-header">Activities</h4>
+	  <div class="card-body">
+	    <p class="card-text">
+		  	These are activities and challenges where you start to pull information out of
+		    the data. Measure parameters of the standard model! Discover new (at least to you) particles! 
+		    And who knows...maybe there is something we missed in the data and only <i>you</i> can figure it out!  :)
+	    </p>
+	  </div>
+	  <ul class="list-group list-group-flush">
+	      {% for activities in site.data.activities %}
+	          <li class="list-group-item">
+	          	<h5><a href="{{ activities.link }}">{{ activities.filename }}</a></h5>
+	          	<p>{{ activities.description }}</p>
+	      {% endfor %}	  	  
+	   </ul>
+	</div>		
+		
 </div>
-
-<div id="intro" class="featurette" >
-  <div class="container">
-
-    Hyperlinks take you to a static rendering of the Jupyter Notebook on Github and so is
-    for just viewing the exercises. <i>You cannot run the code from there!</i>
-    To run the code, read the instructions above on how to download/clone this repository.  
-    <h3>Experiments</h3> 
-    <dl>
-      {% for experiments in site.data.experiments %}
-          <dt><a href="{{ experiments.link }}">{{ experiments.filename }}</a><dt>
-          <dd> {{ experiments.description }} </dd>
-      <br>
-      {% endfor %}
-    </dl> 
-
-    <h3>Physics background</h3> 
-    <dl>
-      {% for physbkg in site.data.physics_background %}
-          <dt><a href="{{ physbkg.link }}">{{ physbkg.filename }}</a><dt>
-          <dd> {{ physbkg.description }} </dd>
-      <br>
-      {% endfor %}
-    </dl> 
-
-    <h3>Code background</h3> 
-    <dl>
-      {% for codebkg in site.data.code_background %}
-          <dt><a href="{{ codebkg.link }}">{{ codebkg.filename }}</a><dt>
-          <dd> {{ codebkg.description }}</dd>
-      <br>
-      {% endfor %}
-    </dl> 
-
-    <h3>Activities</h3> 
-    <dl>
-      {% for activities in site.data.activities %}
-          <dt><a href="{{ activities.link }}">{{ activities.filename }}</a><dt>
-          <dd> {{ activities.description }}</dd>
-      <br>
-      {% endfor %}
-    </dl> 
-  </div>
 </div>
 
 <hr>
@@ -193,16 +186,10 @@
 {% include google_analytics.html %}
 
 
-<ul class="nav pull-right scroll-down">
-  <li><a href="#" title="Scroll down"><i class="fa fa-chevron-down fa-3x"></i></a></li>
-</ul>
-<ul class="nav pull-right scroll-top">
-  <li><a href="#" title="Scroll to top"><i class="fa fa-chevron-up fa-3x"></i></a></li>
-</ul>
 
 	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	</body>
 </html>
