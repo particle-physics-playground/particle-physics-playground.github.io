@@ -8,6 +8,11 @@
   description: An explanation of the data model for the CLEO data used in these activities.
   link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_codebkg_001_cleo.ipynb
 
+- title: Tutorial
+  filename: ppp_codebkg_002_BaBar.ipynb
+  description: An explanation of the data model for the BaBar data used in these activities.
+  link: https://github.com/particle-physics-playground/playground/blob/master/activities/ppp_codebkg_002_babar.ipynb
+
 - title: Download more data
   filename: ppp_codebkg_002_downloaddata.ipynb
   description: How how to download more data to extend your learning activities or do real physics research. 
